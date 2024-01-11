@@ -1,1 +1,72 @@
+Walmart Sales Data Analysis
+About
+The project aims to explore Walmart Sales data to understand top performing braches and products, sales trend of different products, and customer behaviour.
 
+Purpose of the Project
+To ain insight into the sales data of walmart to understand differen factors that affec sales of the different branches.
+
+About Data
+The data is from a Walmart Sales competition on Kaggle, and it shows us sales transactions from three Walmart branches in Mandalay, Yangon, and Naypyitaw. There are 17 columns, and we have 1000 rows to look at
+
+Column Description:
+invoice_id: Invoice of the sales made
+branch: Branch at which sales were made
+city: The location of the branch
+customer_type: The type of the customer
+gender: The gender of the customer making a purchase
+product_line: Product line of the product sold
+unit_price: The price of each product
+quantity: The amount of the product sold
+Tax 5%: The amount of tax on the purchase
+total: The total cost of the purchase
+date: The date on which the purchase was made 
+time: The time at which the purchase was made
+payment_method: The total amount paid
+cogs: Cost Of Goods sold
+gross_margin_percentage: Gross margin percentage
+gross_income: Gross Income
+rating: Rating
+
+Analysis list : product analysis, sales analysis and customer analysis
+
+Approach used:
+Data Wrangling -inspectingg data to detect null and missing values and applyin data replacement methods.
+Building a database
+Creatin a table and inserting the data
+Feature engineering - generated new columns from existing ones. 
+Added columns named time_of_day, day_name and Month_name.
+Exploratory Data Analysis- done o answer listed questions
+
+Business questions to answer
+How many unique cities does the data have?
+In which city is each branch?
+Product
+How many different types of products are there?
+What's the preferred payment choice among customers?
+Which product line is flying off the shelves the most?
+How much money did we make each month?
+In which month did we spend the most on the cost of goods sold (COGS)?
+Among all product lines, which one brought in the most revenue?
+Where did we shine the brightest in terms of revenue?
+Which product line boasts the highest Value Added Tax (VAT)?
+Which branch that outperformed the average number of products sold?
+Pinpoint the product line that steals the spotlight for each gender.
+What is the average rating for each product line?
+
+Sales analysis
+Breakdown of the number of sales during each time of the day across weekdays.
+Which customer type contributes the most to our revenue?
+Identify the city where the Value Added Tax (VAT) or tax percentage is at its peak.
+Among customer types, who contributes the most regarding Value Added Tax (VAT)?
+
+Customer Analysis
+How many distinct customer types are reflected in our data?
+How many diverse payment methods have our customers utilized?
+Which customer type stands out as the most frequent?
+Among customer types, who takes the lead in making the most purchases?
+What is the prevailing gender among our valued customers?
+How is the gender breakdown distributed across each branch?
+During which time of the day do customers generously contribute their ratings?
+Which time of the day sees the most ratings per branch?
+On which day of the week do we receive the best average ratings overall?
+ Does the best average rating day vary across branches?
